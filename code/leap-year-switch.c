@@ -25,12 +25,12 @@ int main(void) {
         case 2:
             if ( ((year%4 == 0) && (year%100 != 0)) || (year%400 ==0) ) {
                 maxDay = 29;
-                printf("%d년 %d월으 마지막일은 %d일(윤년) 입니다.\n", year, month, maxDay);
+                printf("%d년 %d월의 마지막일은 %d일(윤년) 입니다.\n", year, month, maxDay);
                 break;
             }
             else {
                 maxDay = 28;
-                printf("%d년 %d월으 마지막일은 %d일 입니다.\n", year, month, maxDay);
+                printf("%d년 %d월의 마지막일은 %d일 입니다.\n", year, month, maxDay);
                 break;
             }
         default:
